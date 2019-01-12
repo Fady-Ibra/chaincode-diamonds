@@ -1,6 +1,6 @@
 #! /bin/bash
 
-. configVariables.sh
+. 0_configVariables.sh
 
 #1) Create a sample channel.
 sudo docker exec \
