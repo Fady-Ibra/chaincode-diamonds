@@ -11,4 +11,4 @@ sudo docker exec \
 			-C $CHANNEL_ID \
 			-n diamonds \
 			-c '{"Args":["queryDiamond","Kohinoor"]}'
-      
+			
