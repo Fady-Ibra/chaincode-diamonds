@@ -16,7 +16,7 @@ cd fabric-samples
 sudo ./scripts/bootstrap.sh
 
 mkdir -p chaincode/diamonds/
-mv ~/chaincode-diamonds/diamonds.go chaincode/diamonds/
+cp ~/chaincode-diamonds/diamonds.go chaincode/diamonds/
 
 cd basic-network/
 sudo docker-compose up -d
