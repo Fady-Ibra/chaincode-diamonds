@@ -1,10 +1,10 @@
 #! /bin/bash
 
 sudo apt update
-sudo apt install curl
-sudo apt install docker.io
-sudo apt install docker-compose 
-sudo apt install golang-go
+sudo apt install -y curl
+sudo apt install -y docker.io
+sudo apt install -y docker-compose 
+sudo apt install -y golang-go
 
 mkdir -p ~/go/work/src/github.com/hyberledger
 echo 'export GOPATH=~/go/work' >> ~/.profile
