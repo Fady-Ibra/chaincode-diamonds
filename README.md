@@ -1,5 +1,9 @@
 # Chaincode Diamonds
 
+Hyperledger Fabric Chaincode Course https://developer.ibm.com
+
+---
+
 ```
 sudo apt install git
 cd ~
