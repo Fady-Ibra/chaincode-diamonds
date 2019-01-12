@@ -1,7 +1,7 @@
 #! /bin/bash
 
 
-##################################################
+############################################################
 ################## Variables Configuration #################
 
 # Membership Service Providers ID
@@ -19,7 +19,7 @@ export CHANNEL_ID=${CHANNEL_ID:-mychannel}
 export CONFIG_TX_FILE=${CONFIG_TX_FILE:-/etc/hyperledger/configtx/channel.tx} 
 
 
-##################################################
+############################################################
 ################ Before Running Transactions ###############
 
 #1) Create a sample channel.
