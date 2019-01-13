@@ -1,8 +1,9 @@
 # Chaincode Diamonds
 
-In this repo, 
-1) we install Hyperledger Fabric on Ubuntu machine and then 
-2) deploy GoLang Chaincode for a diamonds Blockchain App on this Hyperledger Fabric. 
+In this repo, we 
+1) install Hyperledger Fabric on Ubuntu machine, and
+2) deploy GoLang Chaincode for a diamonds Blockchain App on the Hyperledger Fabric. 
+
 This work is based on Hyperledger Fabric Chaincode course from https://developer.ibm.com/
 
 ---
