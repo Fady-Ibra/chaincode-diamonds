@@ -43,4 +43,4 @@ sudo docker exec \
 			-l "golang" \
 			-v 1.0 \
 			-c '{"Args":[""]}' \
-			-P "OR ('$MSP_ID.member')" #need enhance
+			-P "OR ('$MSP_ID.member')" 
