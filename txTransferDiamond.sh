@@ -11,4 +11,4 @@ sudo docker exec \
 			-o $ORDER_PEER:7050 \
 			-C $CHANNEL_ID \
 			-n diamonds \
-			-c '{"Args":["transferDiamond","Kohinoor","Victoria"]}'
+			-c "{ \"Args\" : [\"transferDiamond\", \"$1\", \"$2\"] }"
