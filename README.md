@@ -23,15 +23,17 @@ bash 2_deployChaincode.sh
 
 1. To send a **create diamond transaction**, we have to run this command.
 ```
-sudo bash txCreateDiamond.sh
+sudo bash txCreateDiamond.sh DIAMOND_NAME ORIGIN CARATS OWNER 
 ```
 
 2. To send a **query diamond transaction**, we have to run this command.
 ```
-sudo bash txQueryDiamond.sh
+sudo bash txQueryDiamond.sh DIAMOND_NAME
 ```
 
 3. To send a **transfer diamond transaction**, we have to run this command.
 ```
-sudo bash txTransferDiamond.sh
+sudo bash txTransferDiamond.sh DIAMOND_NAME NEW_OWNER
 ```
+
+Where DIAMOND_NAME, ORIGIN, CARATS, OWNER, and NEW_OWNER can be any value we want.
