@@ -1,6 +1,8 @@
 # Chaincode Diamonds
 
-In this repo, we install Hyperledger Fabric on Ubuntu machine and then deploy GoLang Chaincode for a diamonds app on the Hyperledger Fabric. 
+In this repo, 
+1) we install Hyperledger Fabric on Ubuntu machine and then 
+2) deploy GoLang Chaincode for a diamonds Blockchain App on this Hyperledger Fabric. 
 This work is based on Hyperledger Fabric Chaincode course from https://developer.ibm.com/
 
 ---
@@ -16,20 +18,20 @@ bash 2_deployChaincode.sh
 ```
 
 ---
-Available Trasactions
+Available Transactions
 ===
 
-1. To send a **create diamond trasaction**, we have to run this command.
+1. To send a **create diamond transaction**, we have to run this command.
 ```
 sudo bash txCreateDiamond.sh
 ```
 
-2. To send a **query diamond trasaction**, we have to run this command.
+2. To send a **query diamond transaction**, we have to run this command.
 ```
 sudo bash txQueryDiamond.sh
 ```
 
-3. To send a **transfer diamond trasaction**, we have to run this command.
+3. To send a **transfer diamond transaction**, we have to run this command.
 ```
 sudo bash txTransferDiamond.sh
 ```
