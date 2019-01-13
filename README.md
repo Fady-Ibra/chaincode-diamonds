@@ -19,8 +19,7 @@ bash 2_deployChaincode.sh
 ```
 
 ---
-Available Transactions
-===
+**Available Transactions**
 
 1. To send a **create diamond transaction**, we have to run this command.
 ```
