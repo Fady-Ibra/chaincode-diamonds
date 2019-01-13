@@ -8,7 +8,7 @@ This work is based on **Hyperledger Fabric Chaincode** course from https://devel
 
 ---
 
-To start installing and deploying, we have to run these commands.
+To install and deploy, we have to run these commands.
 ```
 sudo apt install -y git
 cd ~
