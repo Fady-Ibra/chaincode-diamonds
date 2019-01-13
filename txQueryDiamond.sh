@@ -10,5 +10,5 @@ sudo docker exec \
 		peer chaincode query \
 			-C $CHANNEL_ID \
 			-n diamonds \
-			-c '{"Args":["queryDiamond","Kohinoor"]}'
+			-c "{ \"Args\" : [\"queryDiamond\", \"$1\"] }"
 			
