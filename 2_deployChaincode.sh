@@ -2,6 +2,10 @@
 
 . 0_configVariables.sh
 
+#0) Prepare containers.
+cd ~/go/work/src/github.com/hyberledger/fabric-samples/basic-network/
+sudo docker-compose up -d
+
 #1) Create a sample channel.
 sudo docker exec \
 	-e "CORE_PEER_LOCALMSPID=$MSP_ID" \
