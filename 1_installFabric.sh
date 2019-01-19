@@ -17,6 +17,3 @@ sudo ./scripts/bootstrap.sh
 
 mkdir -p chaincode/diamonds/
 cp ~/chaincode-diamonds/chaincode/diamonds.go chaincode/diamonds/
-
-cd basic-network/
-sudo docker-compose up -d
